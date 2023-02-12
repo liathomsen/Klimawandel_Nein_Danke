@@ -1,0 +1,224 @@
+*
+html {
+    height:100%
+}
+
+#logo {
+    float:left;
+}
+
+body {
+    background: rgb(238, 234, 228); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(rgb(224, 215, 215));
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.11);
+    
+    
+} 
+nav ul{
+    float: right;
+    
+}
+nav ul li {
+    float: left;
+    list-style: none;
+    
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+    margin-right: 20px;
+    
+  }
+
+nav ul li form{
+    float:left;
+        
+}
+nav ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 10px;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+}
+nav ul li a:hover{
+    background-color: rgb(151, 146, 146);
+}
+#Bild2 {
+    
+    object-fit: cover;
+    opacity: 75%;
+}
+#heading {
+color: rgb(49, 48, 48); position: absolute; top: 20%; width:100%; text-align: center; font-size: 3rem; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#aboutus {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+#Bild4 {
+   
+    width:300px;
+    height: 250px; 
+}
+
+#Bild3 {
+    width:300px;
+    height: 250px
+    
+   
+}
+
+#Bild5 {
+    width:300px;
+    height: 250px;
+}
+   
+
+
+
+.Bilderüberuns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+
+
+#CO2 {
+    object-fit: cover;
+    float: right;
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+#Fußabdruck {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float:right;
+    background-color: white;
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    margin-top: 100px;
+    margin-bottom: 100px
+}
+
+#Test {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: smaller;
+    font-display: block;
+    font-weight: 400;
+    margin-left: 15px;
+    align-items: center;
+
+  }
+
+ .Subscribe {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+
+form {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+}
+
+navi ul{
+    float: right;
+}
+navi ul li {
+    float: left;
+    list-style: none;
+}
+navi ul li form{
+    float:left;
+    padding: 5px;     
+}
+navi ul li a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+navi ul li a:hover{
+    background-color: rgb(151, 146, 146);
+}
+    
+
+    table#foobar-table thead { 
+     position: sticky; 
+    } 
+    
+    table#foobar-table thead { 
+     inset-block-start: 0; 
+    } 
+    
+    table#foobar-table, 
+    table#foobar-table > thead > tr > th, 
+    table#foobar-table > tbody > tr > td { 
+     border: Solid 1px #888888; 
+     padding: 5px; 
+     color: #000000; 
+    } 
+    
+    table#foobar-table > thead > tr { 
+     background-color: rgba(196, 188, 181, 0.8); 
+    } 
+    
+    table#foobar-table > tbody > tr:nth-child(even) { 
+     background-color: #FFFFFF; 
+    } 
+    
+    table#foobar-table > tbody > tr:nth-child(odd) { 
+     background-color: #969694; 
+    } 
+    
+    #foobar-table, 
+    p#eingabe { 
+     margin-left: 50px; 
+    } 
+
+.upArrow::after { 
+ content: "\2191"; 
+ color: #FFFFFF; 
+ text-shadow: 1px 1px 0px #000000; 
+ position: absolute; 
+} 
+
+.dnArrow::after { 
+ content: "\2193"; 
+ color: #FFFFFF; 
+ text-shadow: 1px 1px 0px #000000; 
+ position: absolute; 
+}
+
