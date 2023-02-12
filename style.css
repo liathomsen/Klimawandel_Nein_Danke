@@ -14,6 +14,19 @@ body {
     background-attachment: fixed;
 }
 
+/*
+nav {
+    display: flex;
+    justify-content: flex-end; 
+    direction: rtl; 
+  }
+
+
+  .ltr nav {
+    justify-content: flex-start;
+    direction: ltr;
+  }
+*/
 nav{
     width: 100%;
     height: 50px;
@@ -40,6 +53,7 @@ nav ul li {
     margin-right: 20px;
     
   }
+  
 
 nav ul li form{
     float:left;
@@ -51,6 +65,7 @@ nav ul li a{
     font-size: 10px;
     text-decoration: none;
     padding: 10px;
+    position: sticky;
     
     
 }
@@ -58,7 +73,7 @@ nav ul li a:hover{
     background-color: rgb(151, 146, 146);
 }
 #Bild2 {
-    
+    margin-top: -100px;
     object-fit: cover;
     opacity: 75%;
 }
@@ -222,3 +237,23 @@ navi ul li a:hover{
  position: absolute; 
 }
 
+
+menu {
+    display: flex;
+    justify-content: flex-end; 
+    direction: rtl; 
+  }
+
+  
+  menu a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  
+  .ltr menu {
+    justify-content: flex-start;
+    direction: ltr;
+  }
