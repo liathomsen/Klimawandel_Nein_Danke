@@ -14,19 +14,6 @@ body {
     background-attachment: fixed;
 }
 
-/*
-nav {
-    display: flex;
-    justify-content: flex-end; 
-    direction: rtl; 
-  }
-
-
-  .ltr nav {
-    justify-content: flex-start;
-    direction: ltr;
-  }
-*/
 nav{
     width: 100%;
     height: 50px;
@@ -86,9 +73,7 @@ color: rgb(49, 48, 48); position: absolute; top: 20%; width:100%; text-align: ce
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-
 #Bild4 {
-   
     width:300px;
     height: 250px; 
 }
@@ -96,8 +81,6 @@ color: rgb(49, 48, 48); position: absolute; top: 20%; width:100%; text-align: ce
 #Bild3 {
     width:300px;
     height: 250px
-    
-   
 }
 
 #Bild5 {
@@ -105,17 +88,11 @@ color: rgb(49, 48, 48); position: absolute; top: 20%; width:100%; text-align: ce
     height: 250px;
 }
    
-
-
-
 .Bilderüberuns {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    
+    justify-content: space-between; 
 }
-
-
 
 #CO2 {
     object-fit: cover;
@@ -125,7 +102,6 @@ color: rgb(49, 48, 48); position: absolute; top: 20%; width:100%; text-align: ce
     margin-top: 100px;
     margin-bottom: 100px;
 }
-
 
 #Fußabdruck {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -151,7 +127,6 @@ color: rgb(49, 48, 48); position: absolute; top: 20%; width:100%; text-align: ce
  .Subscribe {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
  }
 
 form {
